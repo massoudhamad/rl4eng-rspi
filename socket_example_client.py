@@ -1,6 +1,7 @@
 import socket
 # Create a TCP/IP socket
-server_address = ('192.168.4.3', 2000)
+#server_address = ('192.168.4.3', 2000)
+server_address = ('172.24.197.51', 2000)
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
     sock.connect(server_address)
