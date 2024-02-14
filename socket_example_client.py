@@ -6,5 +6,4 @@ try:
     sock.connect(server_address)
 except socket.error:
     # provide some error message
-
-
+    print("Error")
